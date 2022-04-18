@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1497864149936-d3163f0c0f4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 13%;
+    right: 10%;
+    left: 40%;
+}
+
+.screen {
+    width: 100%;
+    color: white;
+    background-color: rgb(10, 7, 7);
+    padding: 5px;
+    border: none;
+    font-size: 7rem;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    flex: 0 0 25%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+button:hover {
+    background-color: rgb(58, 58, 198);
+}
+
+.btn-pink {
+    background-color: rgb(242, 84, 111);
+    color: white;
+}
+
+.btn-grey {
+    background-color: rgb(199, 199, 234);
+}
+
+.btn-equal {
+    background-color: rgb(9, 160, 9);
+}
+
+.btn-clear {
+    background-color: rgb(248, 42, 42);
+}
+
+.btn,
+.btn-equal,
+.btn-clear {
+    font-size: 3rem;
+}
